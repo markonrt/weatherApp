@@ -50,9 +50,7 @@ dugme.addEventListener("click", ()=>{
         //rotate
         document.querySelector('#wind-direction .finger img').style.transform = `rotate(${data[0].wind.deg}deg)`;
         //console.log(data[0].wind.deg)
-        //let niz2 = niz.find(z=> z.main.temp_max == '25');
-let niz3 = niz.filter(z=> z.main.temp_max > 10 || z.main.temp_max<25);
-console.log(niz3)
+        
     })
     .catch(e=> console.log(e));
 });
