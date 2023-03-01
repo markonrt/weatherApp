@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="slike/sun.png">
+    <script src="https://kit.fontawesome.com/570a969b13.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather APP</title>
+</head>
+<body>
+    <div id="modal">
+        <input type="text" placeholder="Insert city" id="modal-input">
+        <button id="modal-button">Insert city</button>
+    </div>
+    <div class="container">
+    <div class="card">
+        <div class="card-top">
+            <div id="grad">Belgrade SER</div>
+            <img id="icon" alt="" \>
+            <div id="description">Cloudy</div>
+            <div id="temperature">31°C</div>
+        </div>
+        <div class="weather-5days">
+            <div class="day-1 weather-card">
+                <p class="day">Monday</p>
+                <img alt="" \>
+                <p class="temp-min">12°C</p>
+                <p class="temp-max">14°C</p>    
+            </div>
+            <div class="day-2 weather-card">
+                <p class="day">Tuesday</p>
+                <img alt="" \>
+                <p class="temp-min">22°C</p>
+                <p class="temp-max">33°C</p> 
+            </div>
+            <div class="day-3 weather-card">
+                <p class="day">Wednesday</p>
+                <img alt="" \>
+                <p class="temp-min">22°C</p>
+                <p class="temp-max">55°C</p> 
+            </div>
+            <div class="day-4 weather-card">
+                <p class="day">Thursday</p>
+                <img alt="" \>
+                <p class="temp-min">22°C</p>
+                <p class="temp-max">32°C</p> 
+            </div>
+        </div>
+        <div class="card-bottom">
+            <div class="hum-left">
+                <div id="humidity">47%</div>
+                <div id="wind-speed">25 km/h</div>
+            </div>
+            <div id="right-wind">
+                <p>Wind direction</p>
+                <div id="wind-direction">
+                    <div class="circle"><img src="slike/circle2.png" alt="" width="100" height="100"></div>
+                    <div class="finger"><img src="slike/finger.png" alt="" width="50" height="30"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+    <script src="app.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
